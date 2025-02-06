@@ -1,0 +1,8 @@
+{
+  "title": "Invoice Generator",
+  "icon-size": 100,
+  "contents": [
+    { "x": 400, "y": 300, "type": "file", "path": "/Users/khushaltaraviya/Documents/Studio_Projects/invoice_generator/build/macos/Build/Products/Release/invoice_generator.app" },
+    { "x": 200, "y": 300, "type": "link", "path": "/Applications" }
+  ]
+}
