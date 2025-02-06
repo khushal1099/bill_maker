@@ -14,10 +14,9 @@ Future<void> main() async {
 
   windowManager.waitUntilReadyToShow(windowOptions, () async {
     await windowManager.show();
-    await windowManager.focus();
     await windowManager.setMaximizable(false);
     await windowManager.setResizable(false);
-    await windowManager.setFullScreen(true);
+    await windowManager.setMinimizable(true);
   });
 
   runApp(const MyApp());
@@ -35,9 +34,7 @@ class _MyAppState extends State<MyApp> with WindowListener {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback(
-      (timeStamp) {
-
-      },
+      (timeStamp) {},
     );
     windowManager.addListener(this);
   }

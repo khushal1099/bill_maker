@@ -19,7 +19,7 @@ class CreateBillController extends GetxController {
 
   RxString cashType = 'Credit'.obs;
   RxString partyName = ''.obs;
-  RxString invoiceType = ''.obs;
+  RxString invoiceType = 'GST'.obs;
   RxString taxOrBillOfSupply = 'Text Invoice'.obs;
 
   Rx<TextEditingController> date = TextEditingController().obs;
